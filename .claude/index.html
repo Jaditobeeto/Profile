@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="profile-section">
+      <img src="profile-photo.jpg" alt="Profile Photo" class="profile-photo">
+      <div class="header-text">
+        <h1>Jad Kabbani</h1>
+        <p>Software Engineering Student</p>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm Jad, and I'm a software engineering student at McGill University.
+    </p>
+  </section>
+
+  <section>
+    <h2>Passions</h2>
+    <div class="interests-grid">
+      <div class="interest-card" onclick="flipCard(this)">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="interest-icon">💻</div>
+            <h3>Coding</h3>
+            <p>I'm passionate about software development and deepening my knowledge in programming.</p>
+          </div>
+          <div class="card-back">
+            <h3>Coding Journey</h3>
+            <p>Currently studying Software Engineering at McGill University. I love working with various programming languages, building projects, and solving complex algorithmic challenges. Always excited to learn new frameworks and contribute to open-source projects.</p>
+          </div>
+        </div>
+      </div>
+      <div class="interest-card" onclick="flipCard(this)">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="interest-icon">🎮</div>
+            <h3>Playing and Designing Games</h3>
+            <p>I love playing games and also designing fun games for myself and others to enjoy.</p>
+          </div>
+          <div class="card-back">
+            <p>Some of my favorite games include Valorant, Undertale and osu!, but you can try a game I co-developed here: <a href="https://atmanan.itch.io/splash-n-serve-resort" target="_blank" class="game-link">https://atmanan.itch.io/splash-n-serve-resort</a> 😊</p>
+          </div>
+        </div>
+      </div>
+      <div class="interest-card" onclick="flipCard(this)">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="interest-icon">🎵</div>
+            <h3>Music</h3>
+            <p>I love listening to music, and enjoy exploring different genres.</p>
+          </div>
+          <div class="card-back">
+            <h3>Musical Exploration</h3>
+            <p>I love playing the piano, but also dabble in the guitar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="interest-card" onclick="flipCard(this)">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="interest-icon">🧮</div>
+            <h3>Fun Math Problems</h3>
+            <p>Fascinated by mathematical puzzles and the elegant solutions they often reveal</p>
+          </div>
+          <div class="card-back">
+            <h3>Mathematical Thinking</h3>
+            <p>I love tackling challenging math problems, from competition-style puzzles to real-world applications. There's something beautiful about finding elegant proofs and discovering patterns. Math competitions and problem-solving sessions are my favorite brain exercises.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <a href="https://www.mcgill.ca/" target="_blank" class="education-block">
+      <div>
+        <h3>McGill University</h3>
+        <p><strong>Bachelor of Software Engineering</strong></p>
+        <p>August 2025 - May 2029 (Expected)</p>
+      </div>
+    </a>
+    <a href="https://www.marianopolis.edu/" target="_blank" class="education-block">
+      <div>
+        <h3>Marianopolis College</h3>
+        <p><strong>Pure and Applied Sciences</strong> - Graduated with Honours</p>
+        <p>August 2023 - May 2025</p>
+      </div>
+    </a>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+    <div class="work-experience-block">
+      <h3>Assistant Coordinator at McGill Tech Fair</h3>
+      <p><strong>January 2026</strong> • Montreal, Canada</p>
+      <ul>
+        <li>Coordinated large crowds</li>
+        <li>Helped create a reliable and efficient method of organization for belongings to be checked in and out</li>
+      </ul>
+    </div>
+    <div class="work-experience-block">
+      <h3>Camp Counselor</h3>
+      <p><strong>July 2025</strong> • Montreal, Canada</p>
+      <ul>
+        <li>Tasked with caring for children and creating varied schedules for them, including fun and engaging activities</li>
+        <li>Coordinated trips to parks, restaurants & a library</li>
+        <li>Co-managed communication between parents and children, and payments</li>
+      </ul>
+    </div>
+    <div class="work-experience-block">
+      <h3>Private Tutor</h3>
+      <p><strong>October – November 2024</strong> • Montreal, Canada</p>
+      <ul>
+        <li>Taught Sec IV & Sec V level math</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: jadkabbani07@gmail.com</p>
+    <p>LinkedIn | GitHub | Portfolio</p>
+  </section>
+
+</body>
+<script>
+function flipCard(card) {
+  card.classList.toggle('flipped');
+}
+</script>
+</html>
